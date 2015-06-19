@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TheExtensionLab_MegaMenuCatalinSeo>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <TheExtensionLab_MegaMenu/>
+                <Catalin_SEO/>
+            </depends>
+        </TheExtensionLab_MegaMenuCatalinSeo>
+    </modules>
+</config>

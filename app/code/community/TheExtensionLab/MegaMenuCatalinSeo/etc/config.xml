@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TheExtensionLab_MegaMenuCatalinSeo>
+            <version>0.1.0</version>
+        </TheExtensionLab_MegaMenuCatalinSeo>
+    </modules>
+
+    <global>
+        <models>
+            <theextensionlab_megamenucatalinseo>
+                <class>TheExtensionLab_MegaMenuCatalinSeo_Model</class>
+            </theextensionlab_megamenucatalinseo>
+        </models>
+
+        <events>
+            <megamenu_getfilterurl_after>
+                <observers>
+                    <theextensionlab_megamenucatalinseo>
+                        <class>theextensionlab_megamenucatalinseo/observer</class>
+                        <method>megamenuGetfilterurlAfter</method>
+                    </theextensionlab_megamenucatalinseo>
+                </observers>
+            </megamenu_getfilterurl_after>
+        </events>
+    </global>
+
+</config>
