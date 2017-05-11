@@ -1,0 +1,13 @@
+{
+  "name":"theextensionlab/megamenucatalinseocompatability",
+  "type":"magento-module",
+  "authors":[
+    {
+      "name":"James Anelay",
+      "email":"james@theextensionlab.com"
+    }
+  ],
+  "require":{
+    "magento-hackathon/magento-composer-installer":"*"
+  }
+}
